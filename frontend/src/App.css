@@ -1,0 +1,122 @@
+body{
+  overflow-y: scroll;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.clicker{
+  width:200px;
+  height: 200px;
+  font-size: 24px;
+}
+
+.user-counter{
+  padding: 5px;
+  background: black;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.notes{
+  width:600px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.note-item{
+  border: 1px solid black;
+  flex-grow: 1;
+  display: flex;
+}
+
+.note-content{
+  flex-grow: 2;
+}
+
+.items{
+  height: 350px;
+
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px 10px;
+  grid-template-areas:
+    ". . . . "
+    ". . . . ";
+  z-index: -10000;
+}
+
+.card-len{
+  width: 20rem;
+  height: 40vh;
+  overflow-y: auto;
+}
+
+.web-title{
+  font-family: 'Bebas Neue', cursive;
+}
+
+.createListing{
+  z-index: 1000;
+}
+
+.post-container{
+  padding-bottom: 50px;
+
+}
+
+.flash-message{
+  position: fixed;
+  left:50%;
+  top:15%;
+  transform: translate(-50%,0);
+}
+
+.flash-message div {
+  text-align: center;
+}
+
+#sample{
+  height: 20vh;
+}
+
+.input-img{
+  overflow-x: hidden;
+  width: 218px;
+}
+
+.nav-color{
+  background-color: #282c34;
+}
+
+.font-color{
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  margin-top:calc(15% + 60px);
+}
