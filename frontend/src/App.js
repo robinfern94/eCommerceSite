@@ -36,7 +36,7 @@ const App = ({ws}) => {
 
 
       </Switch>
-      <footer> Author: Parradise<br></br> <a href="mailto:parradise@parradise.com">parradise@parradise.com</a></footer>
+      <footer><br></br> </footer>
     </div>
   );
 };
